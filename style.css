@@ -1,0 +1,146 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+ 	font-weight: 300;
+	background-image: url(./hintergrund.jpg);
+	margin: 0px;
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+	font-size: 100px;
+	color: hsla(0,0%,100%,1);	
+}
+
+.banner a{	
+	text-align: left;
+	font-weight: lighter;
+	font-size: 30px;
+	color: hsla(0,0%,100%,1);
+	text-decoration: none;	
+}
+
+#ubt{
+	text-decoration: underline;
+}
+
+.banner {
+	height: 55px;
+	width: 100%;
+	background-color: hsla(0,0%,0%,0.6);
+	padding: 10px;
+	margin: 0px;
+	text-align: left;
+	word-spacing: 15px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+}
+
+.login{
+	padding: 10px;
+	margin:  80px auto 5px auto;
+	width: 500px;
+}
+
+.anmeldung{
+    padding: 10px;
+	margin:  10px auto 40px auto;
+	width: 500px;
+}
+
+.fertig{
+	border: 1px none black;
+	padding: 10px 30px;
+	margin:  30px auto;
+	border-radius: 25px;
+	background-color: hsla(0,0%,0%,0.6);
+	color: hsla(0,0%,100%,1);	
+	font-weight: lighter;
+	font-size: 30px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.daten{
+	border: 1px none black;
+	padding: 10px 30px;
+	margin:  30px auto;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 25px;
+	background-color: hsla(0,0%,0%,0.6);
+	color: white;
+	font-weight: lighter;
+	width: 300px;
+	font-size: 30px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.slogan{
+	position: relative;
+	top: 250px;
+}
+
+.learnmore {
+	position: relative;
+	top: 250px;
+	text-decoration: none;
+	border: 1px none black;
+	border-radius: 25px;
+	background-color: hsla(0,0%,0%,0.6);
+	color: hsla(0,0%,100%,1);	
+	font-weight: lighter;
+	font-size: 30px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	padding: 10px 30px;
+}
+
+
+footer{
+	position: relative;
+	top: 235px;
+	text-align: right;
+	color: hsla(0,0%,100%,1);
+}
+
+#copyright{
+	position: relative;
+	top: 364px;
+	color: hsla(0,0%,100%,1);
+}
+
+.next {
+	position: relative;
+	top: 635px;
+	height: 950px;
+	width: 100%;
+	background-image: url("./hintergrund2.jpg");
+	border:2px solid white;
+	border-width: 3px 0px 0px 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.angebot1, .angebot2 {
+	width: 30%;
+	height: 40%;
+	background-color: white;
+	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+	min-width: 500px;
+	margin: auto;	
+}
+
+h2{
+	font-weight: lighter;
+	font-size: 30px;
+}
+
+.angebot2 p,.angebot1 p{
+	font-size: 80px;
+	font-weight: lighter;
+}
